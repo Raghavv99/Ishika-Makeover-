@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #D4AF37;
+  --color-rosegold: #B76E79;
+  --color-luxury: #0B0B0B;
+  --color-ivory: #F8F4E9;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-luxury);
+    color: var(--color-ivory);
+  }
+}
